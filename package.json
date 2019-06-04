@@ -8,11 +8,11 @@
   "license": "MIT",
   "private": false,
   "devDependencies": {
-    "vuepress": "^0.14.9",
+    "autoprefixer": "^9.4.2",
+    "postcss-import": "^12.0.1",
+    "postcss-loader": "^3.0.0",
     "tailwindcss": "^0.7.3",
-        "autoprefixer": "^9.4.2",
-        "postcss-import": "^12.0.1",
-        "postcss-loader": "^3.0.0"
+    "vuepress": "^0.14.11"
   },
   "scripts": {
     "docs:dev": "vuepress dev docs",
