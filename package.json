@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Docs for GOA to help students learn how to order books",
   "main": "index.js",
-  "repository": "https://github.com/AmoDinho/goa-student-docs",
+  "repository": "https://github.com/pimp-my-book/goa-student-docs",
   "author": "Pimp My Book",
   "license": "MIT",
   "private": false,
