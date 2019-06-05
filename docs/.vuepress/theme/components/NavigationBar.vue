@@ -2,11 +2,14 @@
     <nav class="border-top flex items-center justify-between flex-wrap bg-green-darker p-6">
         <div class="flex items-center flex-no-shrink text">
             <h1 class="font-display text-white">
-            <a 
-            class="no-underline text-white"
-            href="/">
-            GOA
-            </a>
+            <router-link
+            class="no-underline text-white cursor-pointer"
+            :to="$withBase('/')"
+            >
+                 GOA
+            </router-link>
+            
+            
             </h1>
         </div>
         <div class="block sm:hidden">
