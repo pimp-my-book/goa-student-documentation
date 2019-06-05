@@ -1,6 +1,7 @@
 <template>
 <div>
     <p class="text-red">HI</p>
+    <Content/>
 </div>
 </template>
 
