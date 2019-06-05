@@ -47,30 +47,25 @@ let colors = {
   'transparent': 'transparent',
 
   'black': '#22292f',
-  'grey-darkest': '#3d4852',
-  'grey-darker': '#606f7b',
-  'grey-dark': '#8795a1',
-  'grey': '#b8c2cc',
-  'grey-light': '#dae1e7',
-  'grey-lighter': '#f1f5f8',
-  'grey-lightest': '#f8fafc',
+  'grey-darker': '#434343',
+  'grey-dark': '#52524E',
+  'grey': '#9A9B94',
+  'grey-light': '#D4D6C8',
+  'grey-lighter': '#E9E9E5',
   'white': '#ffffff',
+  'white-lighter': '#FCF5EE',
+  
+  'red-dark': '#E71D36',
+  'red': '#FF4545',
+  'red-light': '#FF9867',
+  'red-lighter': '#FFBF87',
+  'red-lightest': '#FFEDB2',
 
-  'red-darkest': '#3b0d0c',
-  'red-darker': '#621b18',
-  'red-dark': '#cc1f1a',
-  'red': '#e3342f',
-  'red-light': '#ef5753',
-  'red-lighter': '#f9acaa',
-  'red-lightest': '#fcebea',
-
-  'orange-darkest': '#462a16',
-  'orange-darker': '#613b1f',
-  'orange-dark': '#de751f',
-  'orange': '#f6993f',
-  'orange-light': '#faad63',
-  'orange-lighter': '#fcd9b6',
-  'orange-lightest': '#fff5eb',
+  'orange-darker': '#FF941F',
+  'orange-dark': '#FFA401',
+  'orange': '#FFB300',
+  'orange-light': '#FFBF00', 
+  'orange-lighter': '#FFC516',
 
   'yellow-darkest': '#453411',
   'yellow-darker': '#684f1d',
@@ -80,13 +75,14 @@ let colors = {
   'yellow-lighter': '#fff9c2',
   'yellow-lightest': '#fcfbeb',
 
-  'green-darkest': '#0f2f21',
-  'green-darker': '#1a4731',
-  'green-dark': '#1f9d55',
-  'green': '#38c172',
-  'green-light': '#51d88a',
-  'green-lighter': '#a2f5bf',
-  'green-lightest': '#e3fcec',
+  
+  'green-darker': '#08160A',
+  'green-dark': '#247A2E',
+  'green': '#4ECA5D',
+  'green-light': '#A0FFAB',
+  'green-lighter': '#D7FFF1',
+  'green-gradient': 'linear-gradient(179.9deg, #A0FFAB 23.23%, #94B5E3 99.68%)',
+  
 
   'teal-darkest': '#0d3331',
   'teal-darker': '#20504f',
@@ -127,6 +123,8 @@ let colors = {
   'pink-light': '#fa7ea8',
   'pink-lighter': '#ffbbca',
   'pink-lightest': '#ffebef',
+
+
 }
 
 module.exports = {
@@ -167,9 +165,15 @@ module.exports = {
   */
 
   screens: {
+    's': '320px',
+    's-max': [{'max':'320px'}],
+    'sl': '375px',
     'sm': '576px',
+    'sm-land':[{'min':'667px'}],
     'md': '768px',
     'lg': '992px',
+    'x': '1024px',
+    'lapie': [{'min': '1024px','max':'1366px'}],
     'xl': '1200px',
   },
 
@@ -182,7 +186,7 @@ module.exports = {
   | Here is where you define your project's font stack, or font families.
   | Keep in mind that Tailwind doesn't actually load any fonts for you.
   | If you're using custom fonts you'll need to import them prior to
-  | defining them here.
+  | defining them here.ggggg
   |
   | By default we provide a native font stack that works remarkably well on
   | any device or OS you're using, since it just uses the default fonts
@@ -194,6 +198,8 @@ module.exports = {
   */
 
   fonts: {
+    'display':['Paytone One'] ,
+    'body': ['Poppins'],
     'sans': [
       'system-ui',
       'BlinkMacSystemFont',
@@ -451,10 +457,13 @@ module.exports = {
 
   borderRadius: {
     'none': '0',
+    'px': '5px',
     'sm': '.125rem',
     default: '.25rem',
-    'lg': '.5rem',
+    'lg': '25px',
     'full': '9999px',
+    'header-border': '0px 0px 220px 220px',
+    'header-border-sm': '0px 0px 120px 120px'
   },
 
 
@@ -509,6 +518,7 @@ module.exports = {
     '5/6': '83.33333%',
     'full': '100%',
     'screen': '100vw',
+    'img': '600px'
   },
 
 
@@ -547,6 +557,11 @@ module.exports = {
     '64': '16rem',
     'full': '100%',
     'screen': '100vh',
+    'img': '500px',
+    '90': '90px',
+    '150': '150px',
+    '200': '200px',
+    '250': '250px'
   },
 
 
@@ -676,6 +691,7 @@ module.exports = {
     '20': '5rem',
     '24': '6rem',
     '32': '8rem',
+    '38': '16rem'
   },
 
 
@@ -768,11 +784,12 @@ module.exports = {
   */
 
   shadows: {
-    default: '0 2px 4px 0 rgba(0,0,0,0.10)',
+    default: '0px 4px 4px  rgba(0,0,0,0.25)',
     'md': '0 4px 8px 0 rgba(0,0,0,0.12), 0 2px 4px 0 rgba(0,0,0,0.08)',
     'lg': '0 15px 30px 0 rgba(0,0,0,0.11), 0 5px 15px 0 rgba(0,0,0,0.08)',
     'inner': 'inset 0 2px 4px 0 rgba(0,0,0,0.06)',
     'outline': '0 0 0 3px rgba(52,144,220,0.5)',
+    'lg-card': '15px -10px 4px rgba(0,0,0,0.25)',
     'none': 'none',
   },
 
@@ -958,6 +975,14 @@ module.exports = {
       // center: true,
       // padding: '1rem',
     }),
+    function({addComponents}){
+      const boarders = {
+        ".border-top": {
+          borderTop: "#4ECA5D 8px solid"
+        }
+      };
+      addComponents(boarders);
+    }
   ],
 
 
