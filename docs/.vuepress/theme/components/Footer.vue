@@ -35,8 +35,18 @@
 </template>
 
 <script>
+
+import FeatureText from "./Typography/FeatureText"
+import Credits from "./Typography/Credits"
+import Copyright from "./Typography/Copyright"
+
 export default{
-    name: 'Footer'
+    name: 'Footer',
+    components: {
+        FeatureText,
+        Credits,
+        Copyright
+    }
 }
 </script>
 
