@@ -8,6 +8,7 @@
 </div>
 </template>
 <script>
+import HomeLayout from './components/HomeLayout'
 import NavigationBar from './components/NavigationBar'
 import Footer from './components/Footer'
 
@@ -15,7 +16,8 @@ export default {
     name: 'Layout',
     components:{
         NavigationBar,
-        Footer
+        Footer,
+        HomeLayout
     }
 }
 </script>

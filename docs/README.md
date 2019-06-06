@@ -1,6 +1,6 @@
 ---
 home: true
-layout: Layout
+layout: HomeLayout
 footer: GOA Docs
 ---
 # Hello VuePress
