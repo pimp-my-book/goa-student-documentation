@@ -3,15 +3,19 @@
     <NavigationBar/>
     
     <Content/>
+
+    <Footer/>
 </div>
 </template>
 <script>
 import NavigationBar from './components/NavigationBar'
+import Footer from './components/Footer'
 
 export default {
     name: 'Layout',
     components:{
-        NavigationBar
+        NavigationBar,
+        Footer
     }
 }
 </script>
