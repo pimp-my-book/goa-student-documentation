@@ -8,7 +8,7 @@
 </div>
 </template>
 <script>
-import HomeLayout from './components/HomeLayout'
+import HomeLayout from './layouts/HomeLayout'
 import NavigationBar from './components/NavigationBar'
 import Footer from './components/Footer'
 
