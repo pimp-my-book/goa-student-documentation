@@ -3,7 +3,7 @@
     <NavigationBar/>
     
     <Content/>
-
+    <component :is="layout"></component>
     <Footer/>
 </div>
 </template>
@@ -18,6 +18,11 @@ export default {
         NavigationBar,
         Footer,
         HomeLayout
+    },
+    computed: {
+        layout(){
+            return this.$page.frontmatter.layout || "HomeLayout";
+        }
     }
 }
 </script>
