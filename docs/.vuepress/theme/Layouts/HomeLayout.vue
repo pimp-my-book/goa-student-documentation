@@ -1,11 +1,8 @@
 <template>
-    <div
+    <header
     >
-    <img
-    class=""
-    src="https://goa-assets.s3.amazonaws.com/Illustrations/undraw_knowledge_g5gf.svg"
-    />
-    </div>
+    
+    </header>
 </template>
 <script>
 export default {
