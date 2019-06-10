@@ -1,9 +1,9 @@
 <template>
-    <p class="text-2xl font-body">{{text}}</p>
+    <p class="text-5xl font-display">{{text}}</p>
 </template>
 <script>
 export default {
-    name:'DisplaySmall',
+    name:'DisplayXLarge',
     props: {
         text: String
     }
