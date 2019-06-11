@@ -1,10 +1,6 @@
 <template>
 <div class= "shadow-lg x:w-4/5 x:h-full Card rounded-lg lg:mr-10">
-  <img 
-  class="mt-5"
-  :src="img"
-  alt="money"
-   />
+ 
   <div>
    <DisplaySmall 
    class="mt-5 text-blue-dark"
@@ -33,7 +29,7 @@ export default {
     FeatureText
     },
     props: {
-        img: String,
+       
         cardTitle: String,
         cardText: String
     }
