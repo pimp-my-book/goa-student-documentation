@@ -10,19 +10,28 @@
     <FeatureText
     text="We have made articles for you to follow if you get stuck or do not understand how to do something. "
     />
-    </header>
+</header>
+
+    <div>
+           <DisplayLarge
+           text="Topics"
+           class="text-center"
+           />
+    </div>
 </div>
     
 </template>
 <script>
  import DisplayXLarge from '../components/typography/DisplayXLarge'
  import FeatureText from '../components/typography/FeatureText'
+ import DisplayLarge from '../components/typography/DisplayLarge'
 
 export default {
     name: 'HomeLayout',
     components:{
         DisplayXLarge,
-        FeatureText
+        FeatureText,
+        DisplayLarge
     }
 }
 </script>
