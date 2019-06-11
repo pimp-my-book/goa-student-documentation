@@ -9,6 +9,7 @@
 </template>
 <script>
 import HomeLayout from './layouts/HomeLayout'
+import ArticleLayout from './layouts/ArticleLayout'
 import NavigationBar from './components/NavigationBar'
 import Footer from './components/Footer'
 
@@ -17,7 +18,8 @@ export default {
     components:{
         NavigationBar,
         Footer,
-        HomeLayout
+        HomeLayout,
+        ArticleLayout
     },
     computed: {
         layout(){
