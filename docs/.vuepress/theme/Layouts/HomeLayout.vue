@@ -21,9 +21,12 @@
            <div class="Card__Grid">
 
             <div v-for="article in articles">
+                <router-link :to="article.path">
                <SmallCard
                :cardTitle="article.title"
                />
+                </router-link>
+               
                
            </div>
                
