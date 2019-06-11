@@ -20,7 +20,7 @@
            
            <div class="Card__Grid">
 
-            <div v-for="article in $site.pages">
+            <div v-for="article in articles">
                <SmallCard
                :cardTitle="article.title"
                />
