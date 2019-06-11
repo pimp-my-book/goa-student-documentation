@@ -21,7 +21,9 @@
            <div class="Card__Grid">
 
             <div v-for="article in articles">
-                <router-link :to="article.path">
+                <router-link 
+                class="no-underline text-black"
+                :to="article.path">
                <SmallCard
                :cardTitle="article.title"
                />
