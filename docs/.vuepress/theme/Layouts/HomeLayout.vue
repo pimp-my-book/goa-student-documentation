@@ -1,5 +1,6 @@
 <template>
-    <header
+<div>
+<header
     class="bg-green-graident h-250 text-center"
     >
     <DisplayXLarge
@@ -10,6 +11,8 @@
     text="We have made articles for you to follow if you get stuck or do not understand how to do something. "
     />
     </header>
+</div>
+    
 </template>
 <script>
  import DisplayXLarge from '../components/typography/DisplayXLarge'
