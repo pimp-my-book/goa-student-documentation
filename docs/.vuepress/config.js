@@ -8,7 +8,7 @@ module.exports = {
         logo: 'GOA',
         search:true,
         nav: [
-            {text: 'Home', link: '/login/'}
+            {text: 'Home', link: '/'}
         ],
         sidebar:[
             '/',
