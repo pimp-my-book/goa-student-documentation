@@ -2,19 +2,24 @@
     <header
     class="bg-green-graident h-250"
     >
-    <DisplayXarge
-    text="GOA Documentation"
+    <DisplayXLarge
+    text="How can we help you?"
+    class="text-white"
     />
-
+    <FeatureText
+    text="We have made articles for you to follow if you get stuck or do not understand how to do something. "
+    />
     </header>
 </template>
 <script>
  import DisplayXLarge from '../components/typography/DisplayXLarge'
+ import FeatureText from '../components/typography/FeatureText'
 
 export default {
     name: 'HomeLayout',
     components:{
-        DisplayXLarge
+        DisplayXLarge,
+        FeatureText
     }
 }
 </script>
