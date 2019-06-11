@@ -20,11 +20,11 @@
            
            <div class="Card__Grid">
 
-            <div v-for="article in $pages.frontmatter.articles">
+            <div v-for="article in $site.pages">
                <SmallCard
                :cardTitle="article.title"
                />
-               <p class="text-black">{{article.title}}</p>
+               
            </div>
                
            </div>
