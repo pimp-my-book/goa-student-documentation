@@ -17,6 +17,11 @@
            text="Topics"
            class="text-center"
            />
+           <div class="flex">
+               <SmallCard
+               cardTitle="Hellow"
+               />
+           </div>
     </div>
 </div>
     
@@ -25,13 +30,15 @@
  import DisplayXLarge from '../components/typography/DisplayXLarge'
  import FeatureText from '../components/typography/FeatureText'
  import DisplayLarge from '../components/typography/DisplayLarge'
+ import SmallCard from '../components/SmallCard'
 
 export default {
     name: 'HomeLayout',
     components:{
         DisplayXLarge,
         FeatureText,
-        DisplayLarge
+        DisplayLarge,
+        SmallCard
     }
 }
 </script>
