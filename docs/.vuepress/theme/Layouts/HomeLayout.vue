@@ -1,10 +1,10 @@
 <template>
     <header
-    class="bg-green-graident h-250"
+    class="bg-green-graident h-250 text-center"
     >
     <DisplayXLarge
     text="How can we help you?"
-    class="text-white"
+    class="text-white p-5"
     />
     <FeatureText
     text="We have made articles for you to follow if you get stuck or do not understand how to do something. "
