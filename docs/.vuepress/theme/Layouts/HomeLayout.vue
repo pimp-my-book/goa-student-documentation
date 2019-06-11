@@ -45,6 +45,12 @@ export default {
         FeatureText,
         DisplayLarge,
         SmallCard
+    },
+    computed: {
+        articles(){
+            return this.$site.pages
+               .filter(x => x.path.startsWith('/articles/'))
+        }
     }
 }
 </script>
