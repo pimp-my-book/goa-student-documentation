@@ -17,7 +17,7 @@
            text="Topics"
            class="text-center"
            />
-           <div class="flex">
+           <div class="Card__Grid">
                <SmallCard
                cardTitle="Hellow"
                />
