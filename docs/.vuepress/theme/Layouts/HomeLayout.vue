@@ -24,7 +24,7 @@
                <SmallCard
                :cardTitle="article.title"
                />
-               <p>{{article.title}}</p>
+               <p class="text-black">{{article.title}}</p>
            </div>
                
            </div>
