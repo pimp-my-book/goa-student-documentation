@@ -49,7 +49,7 @@ export default {
     computed: {
         articles(){
             return this.$site.pages
-               .filter(x => x.path.startsWith('/articles/'))
+               .filter(x => x.path.startsWith('/articles/') && !x.title === 'articles')
         }
     }
 }
