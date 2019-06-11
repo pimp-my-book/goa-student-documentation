@@ -17,10 +17,16 @@
            text="Topics"
            class="text-center"
            />
+           
            <div class="Card__Grid">
+
+            <div v-for="article in $page.frontmatter.articles">
                <SmallCard
-               cardTitle="Hellow"
+               :cardTitle="article.title"
                />
+               <p>{{article.title}}</p>
+           </div>
+               
            </div>
     </div>
 </div>
