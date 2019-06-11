@@ -3,7 +3,7 @@
  
   <div>
    <DisplaySmall 
-   class="mt-5 text-blue-dark text-center"
+   class="mt-5  text-center"
    :text="cardTitle"
    />
   </div>
