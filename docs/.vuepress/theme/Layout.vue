@@ -16,10 +16,11 @@ import Footer from './components/Footer'
 export default {
     name: 'Layout',
     components:{
+        
+        HomeLayout,
+        ArticleLayout,
         NavigationBar,
         Footer,
-        HomeLayout,
-        ArticleLayout
     },
     computed: {
         layout(){
