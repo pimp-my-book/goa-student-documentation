@@ -38,9 +38,9 @@
     
 </template>
 <script>
- import DisplayXLarge from '../components/typography/DisplayXLarge'
- import FeatureText from '../components/typography/FeatureText'
- import DisplayLarge from '../components/typography/DisplayLarge'
+ import DisplayXLarge from '../components/Typography/DisplayXLarge'
+ import FeatureText from '../components/Typography/FeatureText'
+ import DisplayLarge from '../components/Typography/DisplayLarge'
  import SmallCard from '../components/SmallCard'
 
 export default {
