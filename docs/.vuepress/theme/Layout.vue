@@ -8,10 +8,10 @@
 </div>
 </template>
 <script>
-import HomeLayout from './layouts/HomeLayout'
-import ArticleLayout from './layouts/ArticleLayout'
-import NavigationBar from './components/NavigationBar'
-import Footer from './components/Footer'
+import HomeLayout from './layouts/HomeLayout.vue'
+import ArticleLayout from './layouts/ArticleLayout.vue'
+import NavigationBar from './components/NavigationBar.vue'
+import Footer from './components/Footer.vue'
 
 export default {
     name: 'Layout',
