@@ -2,7 +2,7 @@
 <div>
     <NavigationBar/>
     
-    <Content/>
+    
     <component :is="layout"></component>
     <Footer/>
 </div>

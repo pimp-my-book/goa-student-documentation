@@ -40,7 +40,7 @@ import FeatureText from "./Typography/FeatureText"
 import Credits from "./Typography/Credits"
 import Copyright from "./Typography/Copyright"
 
-export default{
+export default {
     name: 'Footer',
     components: {
         FeatureText,
