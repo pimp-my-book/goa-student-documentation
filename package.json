@@ -12,5 +12,8 @@
   },
   "dependencies": {
     "gridsome": "^0.6.0"
+  },
+  "devDependencies": {
+    "gridsome-plugin-tailwind": "^0.0.2"
   }
 }
