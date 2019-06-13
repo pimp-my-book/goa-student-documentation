@@ -4,6 +4,7 @@
     
     
     <component :is="layout"></component>
+    <Content/>
     <Footer/>
 </div>
 </template>

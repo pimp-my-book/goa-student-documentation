@@ -5,7 +5,7 @@ module.exports = {
     postcss: {
         plugins: [require('tailwindcss')('./tailwind.js'), require('autoprefixer')],
     },
-   localTheme: './theme/Layout.vue',
+   theme: '@vuepress/theme/Layout.vue',
     themeConfig: {
         logo: 'GOA',
         search:true,
@@ -16,5 +16,8 @@ module.exports = {
             '/',
             '/sign-up'
         ]
+    },
+    chainWebpack(config){
+        config.externals([/^(vue|vue-router)$/])
     }
 }
