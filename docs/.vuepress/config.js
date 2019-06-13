@@ -5,6 +5,7 @@ module.exports = {
     postcss: {
         plugins: [require('tailwindcss')('./tailwind.js'), require('autoprefixer')],
     },
+    theme:'local',
     themeConfig: {
         logo: 'GOA',
         search:true,
