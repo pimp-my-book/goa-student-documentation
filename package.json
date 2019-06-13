@@ -11,7 +11,7 @@
     "postcss-import": "^12.0.1",
     "postcss-loader": "^3.0.0",
     "tailwindcss": "^0.7.3",
-    "vuepress": "^0.14.11"
+    "vuepress": "^1.0.0-rc.1"
   },
   "scripts": {
     "docs:dev": "vuepress dev docs",
