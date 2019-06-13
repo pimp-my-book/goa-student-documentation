@@ -5,6 +5,7 @@
   "repository": "https://github.com/pimp-my-book/goa-student-docs",
   "author": "Pimp My Book",
   "license": "MIT",
+  "main": "layouts/Layout.vue",
   "private": false,
   "devDependencies": {
     "autoprefixer": "^9.4.2",
