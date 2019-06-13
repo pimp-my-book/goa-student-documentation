@@ -31,6 +31,6 @@ export default {
 </script>
 
 <style lang="stylus">
-@import './styles/theme.styl';
+@import './styles/index.styl';
 </style>
 
