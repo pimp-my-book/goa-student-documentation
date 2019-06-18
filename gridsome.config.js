@@ -8,7 +8,10 @@ module.exports = {
   siteName: 'GOA Student Docs',
   plugins: [
     {
-      use: 'gridsome-plugin-tailwindcss'
+      use: 'gridsome-plugin-tailwindcss',
+      options:{
+        tailwindConfig: './tailwind.js'
+      }
     }
   ]
 }
