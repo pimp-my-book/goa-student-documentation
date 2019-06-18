@@ -2,6 +2,7 @@
   <div class="layout">
     <NavigationBar/>
     <slot/>
+    
     <Footer/>
   </div>
 </template>
@@ -10,11 +11,13 @@
 import NavigationBar from '~/components/NavigationBar.vue'
 import Footer from '~/components/Footer.vue'
 import SmallCard from '~/components/SmallCard'
+import FeatureText from '~/components/typography/FeatureText'
+
 export default {
   name: 'Default',
   components:{
        NavigationBar,
-       
+       FeatureText,
        Footer
   }
 }
