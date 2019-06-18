@@ -6,7 +6,7 @@
     
     <h1 class="text-blue-900 shadow-lg">Hello, world!</h1>
    
-    <p class="text-blue-900">
+    <p class="text-pink-500 font-body">
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur excepturi labore tempore expedita, et iste tenetur suscipit explicabo! Dolores, aperiam non officia eos quod asperiores
     </p>
 

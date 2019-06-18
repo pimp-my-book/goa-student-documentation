@@ -8,8 +8,8 @@
 </template>
 
 <script>
-import NavigationBar from '~/components/NavigationBar.vue'
-import Footer from '~/components/Footer.vue'
+import NavigationBar from '@/components/NavigationBar.vue'
+import Footer from '@/components/Footer.vue'
 import SmallCard from '~/components/SmallCard'
 import FeatureText from '~/components/typography/FeatureText'
 
@@ -30,9 +30,11 @@ query {
   }
 }
 </static-query>
-
 <style>
-
-
+@tailwind base;
+@tailwind components; 
+@tailwind utilities;
 
 </style>
+
+
