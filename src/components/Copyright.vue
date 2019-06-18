@@ -15,7 +15,7 @@
 </template>
 <script>
 export default {
-    name:'Copywright'
+    name:'Copyright'
 }
 </script>
 <style scoped>

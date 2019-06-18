@@ -35,9 +35,10 @@
 </template>
 
 <script>
-import FeatureText from "./Typography/FeatureText"
-import Credits from "./Typography/Credits"
-import Copyright from "./Typography/Copyright"
+import FeatureText from './FeatureText.vue'
+import Credits from './Credits.vue'
+import Copyright from './Copyright.vue'
+
 export default {
     name: 'Footer',
     components: {

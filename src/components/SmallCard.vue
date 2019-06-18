@@ -19,8 +19,8 @@
 </template>
 
 <script>
-import DisplaySmall from "./Typography/DisplaySmall"
-import FeatureText from "./Typography/FeatureText"
+import DisplaySmall from "./DisplaySmall"
+import FeatureText from "./FeatureText"
 export default {
     name: 'SmallCard',
     components:{
