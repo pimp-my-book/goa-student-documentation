@@ -9,7 +9,9 @@ module.exports = {
   plugins: [
     {
       use: 'gridsome-plugin-tailwindcss',
-    
+      options: {
+        config: './tailwind.js'
+      }
     }
   ]
 }

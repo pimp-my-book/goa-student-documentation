@@ -4,9 +4,9 @@
     <!-- Learn how to use images here: https://gridsome.org/docs/images -->
     <g-image alt="Example image" src="~/favicon.png" width="135" />
     
-    <h1 class="text-blue">Hello, world!</h1>
+    <h1 class="text-blue-900 shadow-lg">Hello, world!</h1>
    
-    <p>
+    <p class="text-blue-900">
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur excepturi labore tempore expedita, et iste tenetur suscipit explicabo! Dolores, aperiam non officia eos quod asperiores
     </p>
 
