@@ -3182,7 +3182,7 @@ gridsome-plugin-tailwindcss@^2.2.15:
     postcss-preset-env "^6.6.0"
     tailwindcss latest
 
-gridsome@^0.6.0:
+gridsome@^0.6.4:
   version "0.6.4"
   resolved "https://registry.yarnpkg.com/gridsome/-/gridsome-0.6.4.tgz#5389f9ab0a630b5cd4c49e66958e5d07eac1d6bc"
   dependencies:
