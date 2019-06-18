@@ -42,6 +42,17 @@
 
 <script>
 export default {
-    name: 'NavigationBar'
+    name: 'NavigationBar',
+    data: () => {
+    return {
+        open: false
+    }
+},
+methods: {
+    toggle(){
+        this.open  = !this.open
+    }
 }
+}
+
 </script>
