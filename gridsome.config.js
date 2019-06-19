@@ -11,7 +11,14 @@ module.exports = {
       use: 'gridsome-plugin-tailwindcss',
       options: {
         config: './tailwind.js'
-      }
+      },
+      
+    },
+    {
+      use: '@gridsome/source-filesystem',
+      path: 'posts/**/*.md',
+      route: '/docs/:slug',
+      typeName: 'DocArticle'
     }
   ]
 }
