@@ -12,12 +12,40 @@
     />
 </header>
    
+
+
+
+   <div>
+           <DisplayLarge
+           text="Topics"
+           class="text-center"
+           />
+           
+           <div class="Card__Grid">
+
+            <div >
+                <router-link 
+                class="no-underline text-black"
+                :to="article.path">
+               <SmallCard
+               :cardTitle="article.title"
+               />
+                </router-link>
+               
+               
+           </div>
+               
+           </div>
+    </div>
+
+
   </Layout>
 </template>
 
 <script>
 import FeatureText from '~/components/typography/FeatureText.vue'
 import DisplayXLarge from '~/components/typography/DisplayXLarge.vue'
+import SmallCard from '~/components/SmallCard'
 
 export default {
   metaInfo: {
@@ -25,7 +53,8 @@ export default {
   },
   components:{
     DisplayXLarge,
-    FeatureText
+    FeatureText,
+    SmallCard
   }
 }
 </script>
