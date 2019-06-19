@@ -59,6 +59,21 @@ export default {
 }
 </script>
 
+<page-query>
+query Docs {
+  allArticle{
+    edges{
+      node{
+        id
+        path
+        title
+        excerpt
+      }
+    }
+  }
+}
+</page-query>
+
 <style>
 header{
     background: linear-gradient(179.9deg, #A0FFAB 23.23%, #94B5E3 99.68%);
