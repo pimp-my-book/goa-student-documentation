@@ -1,3 +1,8 @@
+---
+title: Logout
+excerpt: Figure out how to Logout.
+---
+
 # Logout
 
 ## Goals
