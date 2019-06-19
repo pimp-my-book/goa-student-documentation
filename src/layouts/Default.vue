@@ -1,17 +1,27 @@
 <template>
   <div class="layout">
-    <header class="header">
-      <strong>
-        <g-link to="/">{{ $static.metaData.siteName }}</g-link>
-      </strong>
-      <nav class="nav">
-        <g-link class="nav__link" to="/">Home</g-link>
-        <g-link class="nav__link" to="/about">About</g-link>
-      </nav>
-    </header>
+    <NavigationBar/>
     <slot/>
+    
+    <Footer/>
   </div>
 </template>
+
+<script>
+import NavigationBar from '@/components/NavigationBar.vue'
+import Footer from '@/components/Footer.vue'
+import SmallCard from '~/components/SmallCard'
+import FeatureText from '~/components/typography/FeatureText'
+
+export default {
+  name: 'Default',
+  components:{
+       NavigationBar,
+       FeatureText,
+       Footer
+  }
+}
+</script>
 
 <static-query>
 query {
@@ -20,31 +30,16 @@ query {
   }
 }
 </static-query>
-
 <style>
+@tailwind base;
+@tailwind components; 
+@tailwind utilities;
+
 body {
-  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-  margin:0;
+   margin:0;
   padding:0;
-  line-height: 1.5;
 }
 
-.layout {
-  max-width: 760px;
-  margin: 0 auto;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 20px;
-  height: 80px;
-}
-
-.nav__link {
-  margin-left: 20px;
-}
 </style>
+
+
