@@ -16,9 +16,18 @@ module.exports = {
     },
     {
       use: '@gridsome/source-filesystem',
-      path: 'posts/**/*.md',
+      options: {
+        path: 'posts/**/*.md',
       route: '/docs/:slug',
-      typeName: 'DocArticle'
+      typeName: 'Article'
+      }
     }
-  ]
+  ],
+  transformers: {
+    remark:{
+      externalLinksTarget: '_blank',
+      externalLinksRel: ['nofollow', 'noopener','noreferrer'],
+      
+    }
+  }
 }
