@@ -23,12 +23,16 @@
            
            <div class="Card__Grid">
 
-            <div >
+            <div 
+            v-for="item in $page.docs.edges"
+            :key="item.node.id"
+            >
                 <router-link 
                 class="no-underline text-black"
-                :to="article.path">
+                :to="item.node.path"
+                >
                <SmallCard
-               :cardTitle="article.title"
+               :cardTitle="item.node.title"
                />
                 </router-link>
                
@@ -61,7 +65,7 @@ export default {
 
 <page-query>
 query Docs {
-  allArticle{
+  docs: allArticle{
     edges{
       node{
         id
