@@ -1,3 +1,8 @@
+---
+title: Change Profile Info
+excerpt: find out how to change your profile info.
+---
+
 # Change Profile Info
 
 ## Goals
