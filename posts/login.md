@@ -1,3 +1,8 @@
+---
+title: Login
+excerpt: Figure out how to login.
+---
+
 # Login
 
 ## Goals
