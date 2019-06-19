@@ -1,11 +1,12 @@
 <template>
   <Layout>
+    
    <header
-    class="bg-green-graident h-250 text-center"
+    class="h-250 text-center "
     >
     <DisplayXLarge
     text="How can we help you?"
-    class="text-white p-5"
+    class="text-white p-5 "
     />
     <FeatureText
     text="We have made articles for you to follow if you get stuck or do not understand how to do something. "
@@ -38,7 +39,7 @@
                 </router-link>
                
                
-           </div>
+           </div> 
                
            </div>
     </div>
@@ -51,6 +52,7 @@
 import FeatureText from '~/components/typography/FeatureText.vue'
 import DisplayXLarge from '~/components/typography/DisplayXLarge.vue'
 import SmallCard from '~/components/SmallCard'
+import DisplayLarge from '~/components/typography/DisplayLarge.vue'
 
 export default {
   metaInfo: {
@@ -59,7 +61,8 @@ export default {
   components:{
     DisplayXLarge,
     FeatureText,
-    SmallCard
+    SmallCard,
+    DisplayLarge
   }
 }
 </script>
