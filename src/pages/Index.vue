@@ -17,7 +17,7 @@
 
 <script>
 import FeatureText from '~/components/typography/FeatureText.vue'
-import DisplayXLarge from '~/components/typography/FeatureText.vue'
+import DisplayXLarge from '~/components/typography/DisplayXLarge.vue'
 
 export default {
   metaInfo: {
