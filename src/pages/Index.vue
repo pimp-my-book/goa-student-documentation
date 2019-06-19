@@ -33,6 +33,7 @@
                 >
                <SmallCard
                :cardTitle="item.node.title"
+               :cardText="item.node.excerpt"
                />
                 </router-link>
                
