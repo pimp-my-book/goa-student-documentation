@@ -1,3 +1,8 @@
+---
+title: Change Password
+excerpt: Learn how to get a new password.
+---
+
 # Change Password
 
 ## Goals
