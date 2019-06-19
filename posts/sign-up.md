@@ -1,3 +1,8 @@
+---
+title: Sign Up
+excerpt: Learn how to Sign Up for GOA.
+---
+
 # Sign Up
 
 ## Goals

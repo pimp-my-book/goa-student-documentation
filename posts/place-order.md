@@ -1,3 +1,8 @@
+---
+title: Place order
+excerpt: Learn how to place an order.
+---
+
 # Place order
 
 ## Goals
