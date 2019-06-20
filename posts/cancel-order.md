@@ -13,7 +13,7 @@ Successfully cancelling an order you’ve already placed
 
 On the left of your dashboard, click on ‘Order History’
 
-[Cancel_Order_step1.png]
+![Cancel_Order_step1.png](../uploads/cancel-order/Cancel_Order_step1.png)
 
 ### Step 2
 
