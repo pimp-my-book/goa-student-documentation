@@ -1,8 +1,10 @@
 <template>
-    <div>
+<Layout>
+<div>
         
         <span v-html="$page.doc.content"/>
     </div>
+</Layout>
 </template>
 <script>
 export default {
