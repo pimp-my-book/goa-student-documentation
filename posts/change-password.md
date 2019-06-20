@@ -20,7 +20,7 @@ On the top right hand corner where your name and surname appears, click once and
 
 Change your password accordingly with the instructions provided above on the length of your password.
 
-[change_password_step2.png]
+![change_password_step2.png](../uploads/change-password/change_password_step2.png)
 
 Please note : You will need your previous password to generate your own customised password
 
