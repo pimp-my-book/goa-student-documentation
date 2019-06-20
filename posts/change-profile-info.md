@@ -21,7 +21,7 @@ Under your profile you able to change your passwords and other personal
 information
 .
 
-[change_profile_info_step2.png](../uploads/change-profile-info/change_profile_info_step2.png)
+![change_profile_info_step2.png](../uploads/change-profile-info/change_profile_info_step2.png)
 
 You will notice that you are not able to change your sponsor.
 
