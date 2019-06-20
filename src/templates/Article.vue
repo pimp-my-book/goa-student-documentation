@@ -1,7 +1,7 @@
 <template>
     <div>
-        <span>{{$page.doc.title}}</span>
-        <span v-text="$page.doc.content"/>
+        
+        <span v-html="$page.doc.content"/>
     </div>
 </template>
 <script>
