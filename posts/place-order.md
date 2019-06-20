@@ -12,13 +12,13 @@ Note : You can only successfully place an order as a registered student of our b
 
 ### Step 1
 
-[place_order_step1.png] 
+![place_order_step1.png] (../uploads/place-order/place_order_step1.png)
 
 On the left of your “Dashboard”, click place order
 
 ### Step 2
 
-[place_order_step2.png]
+![place_order_step2.png](../uploads/place-order/place_order_step2.png)
 
 Select an Order Type – Select whether you want to order a textbook,
 calculator, laptop, drawing board, lab coat, bag etc. Note that this will be
@@ -50,13 +50,13 @@ book.
 
 ### Step 3
 
-[place_order_step3.png]
+![place_order_step3.png](../uploads/place-order/place_order_step3.png)
 
 Run over your order one more time to make sure your order is correct, if not, simply click “Cancel” . If all is in order and ready to go, click “Place Order”
 
 ### Step 4
 
-[place_order_step4.png]
+![place_order_step4.png](../uploads/place-order/place_order_step4.png)
 
 In order to proceed, please enter your lecturers details and your course outline to verify your order
 
