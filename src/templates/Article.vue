@@ -2,7 +2,10 @@
 <Layout>
 <div>
         
-        <span v-html="$page.doc.content"/>
+        <span 
+        class="font-body p-5 pl-5 text-center" 
+        v-html="$page.doc.content"
+        />
     </div>
 </Layout>
 </template>
