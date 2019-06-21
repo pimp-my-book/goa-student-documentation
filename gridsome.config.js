@@ -3,7 +3,7 @@
 
 // Changes here require a server restart.
 // To restart press CTRL + C in terminal and run `gridsome develop`
-
+//pakage.json
 module.exports = {
   siteName: 'GOA Student Docs',
   plugins: [
