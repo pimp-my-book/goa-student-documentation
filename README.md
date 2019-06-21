@@ -1,14 +1,54 @@
-# Default starter for Gridsome
 
-This is the project you get when you run `gridsome create new-project`.
 
-### 1. Install Gridsome CLI tool if you don't have
+# GOA Documentation
 
-`npm install --global @gridsome/cli`
+This repo houses the documentation for Pimp My Book's GOA app that allows bursary students to order their books for university. 
 
-### 2. Create a Gridsome project
 
-1. `gridsome create my-gridsome-site` to install default starter
-2. `cd my-gridsome-site` to open the folder
-3. `gridsome develop` to start a local dev server at `http://localhost:8080`
-4. Happy coding 🎉🙌
+## Prerequistes 
+
+* NodeJS >= 8.0.0
+* Yarn
+
+
+## Installion & Development Instructions
+
+First go head and clone the repo:
+
+```
+$ git clone https://github.com/pimp-my-book/goa-student-documentation.git
+```
+Make sure you change directories:
+
+```
+$ cd goa-student-documentation
+```
+
+ Install Gridsome CLI tool if you don't have
+
+```
+yarn install --global @gridsome/cli
+```
+
+Then make sure you install the dependancies:
+
+```
+$ yarn install
+```
+
+To start the dev server:
+
+```
+$ yarn develop
+```
+
+To build for production:
+
+```
+$ yarn build
+```
+
+
+## License
+
+MIT

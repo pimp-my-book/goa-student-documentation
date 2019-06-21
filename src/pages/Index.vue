@@ -1,38 +1,94 @@
 <template>
   <Layout>
-   
-    <!-- Learn how to use images here: https://gridsome.org/docs/images -->
-    <g-image alt="Example image" src="~/favicon.png" width="135" />
     
-    <h1 class="text-blue-900 shadow-lg">Hello, world!</h1>
+   <header
+    class="h-250 text-center "
+    >
+    <DisplayXLarge
+    text="How can we help you?"
+    class="text-white p-5 "
+    />
+    <FeatureText
+    text="We have made articles for you to follow if you get stuck or do not understand how to do something. "
+    />
+</header>
    
-    <p class="text-pink-500 font-body">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur excepturi labore tempore expedita, et iste tenetur suscipit explicabo! Dolores, aperiam non officia eos quod asperiores
-    </p>
 
-    <p class="home-links">
-      <a href="https://gridsome.org/docs" target="_blank" rel="noopener">Gridsome Docs</a>
-      <a href="https://github.com/gridsome/gridsome" target="_blank" rel="noopener">GitHub</a>
-    </p>
+
+
+   <div>
+           <DisplayLarge
+           text="Topics"
+           class="text-center"
+           />
+           
+           <div class="Card__Grid">
+
+            <div 
+            v-for="item in $page.docs.edges"
+            :key="item.node.id"
+            >
+                <router-link 
+                class="no-underline text-black"
+                :to="item.node.path"
+                >
+               <SmallCard
+               :cardTitle="item.node.title"
+               :cardText="item.node.excerpt"
+               />
+                </router-link>
+               
+               
+           </div> 
+               
+           </div>
+    </div>
+
 
   </Layout>
 </template>
 
 <script>
-import NavigationBar from '~/components/NavigationBar.vue'
+import FeatureText from '~/components/typography/FeatureText.vue'
+import DisplayXLarge from '~/components/typography/DisplayXLarge.vue'
+import SmallCard from '~/components/SmallCard'
+import DisplayLarge from '~/components/typography/DisplayLarge.vue'
 
 export default {
   metaInfo: {
     title: 'Hello, world!'
   },
   components:{
-    NavigationBar
+    DisplayXLarge,
+    FeatureText,
+    SmallCard,
+    DisplayLarge
   }
 }
 </script>
 
+<page-query>
+query Docs {
+  docs: allArticle{
+    edges{
+      node{
+        id
+        path
+        title
+        excerpt
+      }
+    }
+  }
+}
+</page-query>
+
 <style>
-.home-links a {
-  margin-right: 1rem;
+header{
+    background: linear-gradient(179.9deg, #A0FFAB 23.23%, #94B5E3 99.68%);
+}
+.Card__Grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
 }
 </style>
