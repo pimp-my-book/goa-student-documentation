@@ -14,7 +14,7 @@
     "@gridsome/source-filesystem": "^0.5.0",
     "@gridsome/transformer-remark": "^0.3.2",
     "gridsome": "^0.6.4",
-    "websocket-driver": "^0.8.0"
+    "websocket-driver": "latest"
   },
   "devDependencies": {
     "gridsome-plugin-tailwindcss": "1.0.6"
