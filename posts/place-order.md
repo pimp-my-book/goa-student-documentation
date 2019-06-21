@@ -56,7 +56,7 @@ Run over your order one more time to make sure your order is correct, if not, si
 
 ### Step 4
 
-![place_order_step4.png](../uploads/place-order/place_order_step4.png)
+[place_order_step4.png]()
 
 In order to proceed, please enter your lecturers details and your course outline to verify your order
 
