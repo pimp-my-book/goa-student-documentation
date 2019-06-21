@@ -6,7 +6,7 @@
   "author": "Pimp My Book",
   "private": true,
   "scripts": {
-    "make": "gridsome build",
+    "make": "gridsome build; sleep 120; false;",
     "develop": "gridsome develop",
     "explore": "gridsome explore"
   },
