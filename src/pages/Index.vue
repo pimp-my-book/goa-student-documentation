@@ -1,6 +1,5 @@
 <template>
   <Layout>
-    
    <header
     class="h-250 text-center "
     >
