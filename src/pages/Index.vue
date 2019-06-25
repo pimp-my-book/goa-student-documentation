@@ -22,7 +22,7 @@
            class="text-center"
            />
            
-           <div class="Card__Grid">
+           <div class="Card__Grid ">
 
             <div 
             v-for="item in $page.docs.edges"
@@ -36,6 +36,7 @@
                <SmallCard
                :cardTitle="item.node.title"
                :cardText="item.node.excerpt"
+               class="ml-16"
                />
                 </router-link>
                
