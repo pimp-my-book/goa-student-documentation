@@ -13,7 +13,7 @@ module.exports = {
         config: './tailwind.js'
       },
       
-    },
+    }, 
     {
       use: '@gridsome/source-filesystem',
       options: {
