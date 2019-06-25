@@ -31,6 +31,7 @@
                 <router-link 
                 class="no-underline text-black"
                 :to="item.node.path"
+                target="_blank"
                 >
                <SmallCard
                :cardTitle="item.node.title"
