@@ -1,13 +1,14 @@
 <template>
   <Layout>
    <header
-    class="h-250 text-center "
+    class="h-250 text-center flex flex-col"
     >
     <DisplayXLarge
     text="How can we help you?"
     class="text-white p-5 "
     />
     <FeatureText
+    class="mb-16"
     text="We have made articles for you to follow if you get stuck or do not understand how to do something. "
     />
 </header>
@@ -21,7 +22,8 @@
            class="text-center"
            />
            
-           <div class="Card__Grid ">
+           <div 
+           class="flex flex-wrap">
 
             <div 
             v-for="item in $page.docs.edges"
@@ -87,9 +89,5 @@ query Docs {
 header{
     background: linear-gradient(179.9deg, #A0FFAB 23.23%, #94B5E3 99.68%);
 }
-.Card__Grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 10px;
-}
+
 </style>
