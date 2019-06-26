@@ -2,16 +2,16 @@
     <nav class="border-top flex items-center justify-between flex-wrap bg-green-darker p-6">
         <div class="flex items-center flex-no-shrink text">
             <h1 class="font-display text-white">
-           
-                 GOA
-           
-            
-            
+           <a 
+            class="no-underline text-white"
+            href="/">
+            GOA
+            </a>
             </h1>
         </div>
         <div class="block sm:hidden">
             <span @click="toggle" class="flex items-center px-3 py-2">
-                <!--<img src="../../assets/menu.svg"/> -->
+                <img src="https://goa-assets.s3.amazonaws.com/Icons/menu.svg"/>
                 </span>
         </div>
         <div :class="open ? 'block':'hidden'" class="w-full flex-grow sm:flex sm:items-center sm:w-auto ml-10 ">

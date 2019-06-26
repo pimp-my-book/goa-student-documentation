@@ -1,14 +1,14 @@
 <template>
   <Layout>
-    
    <header
-    class="h-250 text-center "
+    class="lg:h-350 s:h-450 text-center flex flex-col"
     >
     <DisplayXLarge
     text="How can we help you?"
     class="text-white p-5 "
     />
     <FeatureText
+    class="mb-16"
     text="We have made articles for you to follow if you get stuck or do not understand how to do something. "
     />
 </header>
@@ -22,7 +22,8 @@
            class="text-center"
            />
            
-           <div class="Card__Grid">
+           <div 
+           class="flex justify-center flex-wrap">
 
             <div 
             v-for="item in $page.docs.edges"
@@ -31,10 +32,12 @@
                 <router-link 
                 class="no-underline text-black"
                 :to="item.node.path"
+                target="_blank"
                 >
                <SmallCard
                :cardTitle="item.node.title"
                :cardText="item.node.excerpt"
+               class="lg:ml-16"
                />
                 </router-link>
                
@@ -55,9 +58,7 @@ import SmallCard from '~/components/SmallCard'
 import DisplayLarge from '~/components/typography/DisplayLarge.vue'
 
 export default {
-  metaInfo: {
-    title: 'Hello, world!'
-  },
+ 
   components:{
     DisplayXLarge,
     FeatureText,
@@ -86,9 +87,5 @@ query Docs {
 header{
     background: linear-gradient(179.9deg, #A0FFAB 23.23%, #94B5E3 99.68%);
 }
-.Card__Grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 10px;
-}
+
 </style>

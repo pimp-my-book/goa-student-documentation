@@ -6,7 +6,7 @@
   "author": "Pimp My Book",
   "private": true,
   "scripts": {
-    "make": "gridsome build; sleep 240; false;",
+    "make": "gridsome build",
     "develop": "gridsome develop",
     "explore": "gridsome explore"
   },
@@ -16,6 +16,7 @@
     "gridsome": "^0.6.4"
   },
   "devDependencies": {
-    "gridsome-plugin-tailwindcss": "1.0.6"
+    "gridsome-plugin-tailwindcss": "1.0.6",
+    "vue-svg-loader": "^0.12.0"
   }
 }

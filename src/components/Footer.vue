@@ -1,5 +1,5 @@
 <template>
-<footer class="bg-green-darker mt-32 w-full  z-0 relative">
+<footer class="bg-green-darker mt-32 w-full s:h-f-sm ">
         
       <div class="container relative ">
           <div class="flex lg:flex-row s:flex-col  Links__Container absolute mt-32 pt-32">
