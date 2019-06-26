@@ -1,7 +1,7 @@
 <template>
   <Layout>
    <header
-    class="h-250 text-center flex flex-col"
+    class="lg:h-350 s:h-400 text-center flex flex-col"
     >
     <DisplayXLarge
     text="How can we help you?"
