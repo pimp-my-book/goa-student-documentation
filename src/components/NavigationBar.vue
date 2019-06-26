@@ -11,7 +11,7 @@
         </div>
         <div class="block sm:hidden">
             <span @click="toggle" class="flex items-center px-3 py-2">
-                <!--<img src="../../assets/menu.svg"/> -->
+                <img src="../assets/menu.svg"/>
                 </span>
         </div>
         <div :class="open ? 'block':'hidden'" class="w-full flex-grow sm:flex sm:items-center sm:w-auto ml-10 ">
