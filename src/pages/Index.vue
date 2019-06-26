@@ -23,7 +23,7 @@
            />
            
            <div 
-           class="flex flex-wrap">
+           class="flex justify-center flex-wrap">
 
             <div 
             v-for="item in $page.docs.edges"
@@ -37,7 +37,7 @@
                <SmallCard
                :cardTitle="item.node.title"
                :cardText="item.node.excerpt"
-               class="ml-16"
+               class="lg:ml-16"
                />
                 </router-link>
                
