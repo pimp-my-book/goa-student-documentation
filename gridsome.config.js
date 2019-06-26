@@ -6,6 +6,7 @@
 //pakage.json
 module.exports = {
   siteName: 'GOA Student Docs',
+  siteDescription: 'A documentation site for GOA.',
   plugins: [
     {
       use: 'gridsome-plugin-tailwindcss',
