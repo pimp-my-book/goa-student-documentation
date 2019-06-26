@@ -7,6 +7,7 @@
 module.exports = {
   siteName: 'GOA Student Docs',
   siteDescription: 'A documentation site for GOA.',
+  icon: 'src/favicon.png',
   plugins: [
     {
       use: 'gridsome-plugin-tailwindcss',
