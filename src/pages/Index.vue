@@ -58,9 +58,7 @@ import SmallCard from '~/components/SmallCard'
 import DisplayLarge from '~/components/typography/DisplayLarge.vue'
 
 export default {
-  metaInfo: {
-    title: 'Hello, world!'
-  },
+ 
   components:{
     DisplayXLarge,
     FeatureText,
