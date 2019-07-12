@@ -14,37 +14,15 @@ Note : You can only successfully place an order as a registered student of our b
 
 ![place_order_step1.png] (../uploads/place-order/place_order_step1.png)
 
-On the left of your “Dashboard”, click place order
+After logging in you will land on your dashboard. You Should be able to see a `Place Order` button in the side nav and on the page. Click either one to be redirect to the `Place Order` screen.
 
 ### Step 2
 
 ![place_order_step2.png](../uploads/place-order/place_order_step2.png)
 
-Select an Order Type – Select whether you want to order a textbook,
-calculator, laptop, drawing board, lab coat, bag etc. Note that this will be
-limited to items that were approved by your bursary.
-Select Book for ordering a book.
-
-#### step 2.1
-
-Select a Course Code – GOA will select all the courses that are linked to
-the qualification and university which you selected when you registered. If
-you cannot find one of your courses you can select “add a course” and
-add the course.
+Now you can go head an fill out the form by telling us what the Course Code, Book Title, ISBN, Book Author and Book Edition is for your order. If there is anything else you need to tell us, simply just tell us in the Note textarea. Once you're done click the place order button.
 
 
-#### step 2.2
-
-Select a Book – Once you have selected a course GOA will automatically
-put a list of books which are prescribed for that course at your university.
-You can select the book which you want to order. If you cannot find the
-book which you want to order select “add a new book”.
-
-#### step 2.3
-
-Add A New Book – If you cant find the book that you want to order in our
-list, select “add a new book”. GOA will ask you to provide details of the
-book.
 
 
 
@@ -52,20 +30,10 @@ book.
 
 ![place_order_step3.png](../uploads/place-order/place_order_step3.png)
 
-Run over your order one more time to make sure your order is correct, if not, simply click “Cancel” . If all is in order and ready to go, click “Place Order”
-
-### Step 4
-
-[place_order_step4.png]()
-
-In order to proceed, please enter your lecturers details and your course outline to verify your order
+To check the status of the order simply go to the Order History Page. This is where you can see the progress of all your orders.
 
 
-NOTE: 
 
-Book Prescription Information – If you added a new book, GOA will ask you
-to provide information to prove that the book is prescribed for that
-particular course.
-GOA will ask you to provide your lecturers name and telephone number.
-You are also able to upload the course reader that shows what book is
-prescribed for that course.
+
+
+
