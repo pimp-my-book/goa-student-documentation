@@ -19,10 +19,10 @@ Make sure you’re at the correct GOA page : https://gogoa.co.za/
 
 Click ‘Login’ at the top right hand corner 
 
-[Login_step1.png]
+![Login_step1.png](../uploads/login/Login_step1.png)
 
 ### Step 3
 
 You will then proceed to the page where you will insert your registered email and password. Once inserted, you will have successfully logged in.
 
-[Login_step2.png]
+![Login_step2.png](../uploads/login/Login_step2.png)
