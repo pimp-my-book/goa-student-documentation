@@ -1,30 +1,60 @@
 <template>
 <footer class="bg-green-darker mt-32 w-full s:h-f-sm ">
         
-      <div class="container relative ">
+      <div class="container  ">
           <div class="flex lg:flex-row s:flex-col  Links__Container absolute mt-32 pt-32">
+          
+         <!-- Contact -->
+         <a
+         to="/contact"
+         class="no-underline"
+         >
            <FeatureText
            text="Contact Us"
+          
            class="mr-4 mt-3 text-white "
            />
+           </a>
+           
+
+           <!-- help -->
+             <a
+         href="https://help.gogoa.co.za"
+         class="no-underline"
+         >
             <FeatureText
-           text="Support"
+           text="Help"
            class="mr-4 mt-3 text-white "
            />
+            </a>
+
+
+ <!-- privacy -->
+  <a
+         to="/privacy"
+         class="no-underline"
+         >
            <FeatureText
            text="Privacy"
            class="mr-4 mt-3 text-white"
            />
-           
+           </a>
+
+            <!-- TERMS OF SERVICE -->
+             <a
+         to="/terms"
+         class="no-underline"
+         >
            <FeatureText
            text="Terms of Service"
            class="mr-4 mt-3 text-white "
            />
+           </a>
           </div>
         
       </div>
 
-      <div class="container relative py-32 s:py-38">
+      <div class="container  py-32 s:py-38">
           <div class="flex lg:flex-row s:flex-col pt-10 self-end Copyright__Container absolute mt-32 s:pt-20 lg:pt-32">
            <Credits/>
            
