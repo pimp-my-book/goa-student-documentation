@@ -6,7 +6,8 @@
           
          <!-- Contact -->
          <a
-         to="/contact"
+         href="https://gogoa.co.za/contact"
+         target="_blank"
          class="no-underline"
          >
            <FeatureText
@@ -31,7 +32,7 @@
 
  <!-- privacy -->
   <a
-         to="/privacy"
+         href="https://gogoa.co.za/privacy"
          class="no-underline"
          >
            <FeatureText
@@ -42,7 +43,7 @@
 
             <!-- TERMS OF SERVICE -->
              <a
-         to="/terms"
+         href="https://gogoa.co.za/terms"
          class="no-underline"
          >
            <FeatureText
