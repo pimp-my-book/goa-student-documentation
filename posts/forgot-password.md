@@ -3,7 +3,7 @@ title: Forgot Password
 excerpt: Figure out how to change your password.
 ---
 
-#Forgot Password
+# Forgot Password
 
 ## Goals
 Successfully changing your password if forgetten 
