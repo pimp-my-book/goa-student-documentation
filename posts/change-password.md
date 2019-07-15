@@ -14,7 +14,7 @@ Note : The functionality of changing your password is only available once you’
 
 On the top right hand corner where your name and surname appears, click once and select profile.
 
-[change_password_step1.png]
+![change_password_step1.png](../uploads/change-password/change_password_step1.png)
 
 ### Step 2
 
