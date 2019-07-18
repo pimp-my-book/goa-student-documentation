@@ -83,7 +83,7 @@ export default {
 <style>
 footer {
      clip-path: polygon(59% 21%, 100% 1%, 100% 100%, 0 100%, 0 49%); 
-    height: 600px;
+    height: 680px;
     
     
 }
