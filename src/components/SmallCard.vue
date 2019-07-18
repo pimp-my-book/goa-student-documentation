@@ -1,5 +1,5 @@
 <template>
-<div class= "shadow-lg x:w-4/5 x:h-full xl:h-500 Card rounded-lg lg:mr-10">
+<div class= "shadow-lg x:w-4/5 x:h-full xl:h-200 Card rounded-lg lg:mr-10">
  
   <div>
    <DisplaySmall 
