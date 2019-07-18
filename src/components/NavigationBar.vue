@@ -1,7 +1,7 @@
 <template>
     <nav class="border-top flex items-center justify-between flex-wrap bg-green-darker p-6">
         <div class="flex items-center flex-no-shrink text">
-            <h1 class="font-display text-white xl:text-4xl">
+            <h1 class="font-display text-white l xl:text-4xl">
            <a 
             class="no-underline text-white"
             href="/">
@@ -22,7 +22,7 @@
 
             </div>
             <div class="nav__drawer--right">
-                <p class="text-white font-body mr-4 hover:text-green xl:text-2xl">
+                <p class="text-white font-body mr-4 hover:text-green text-lg xl:text-2xl">
                     <a 
                     href="http://app.gogoa.co.za/login"
                     class="no-underline text-white">
