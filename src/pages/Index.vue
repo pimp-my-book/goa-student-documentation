@@ -19,7 +19,7 @@
    <div>
            <DisplayLarge
            text="Topics"
-           class="text-center"
+           class="text-center xl:text-4xl"
            />
            
            <div 
