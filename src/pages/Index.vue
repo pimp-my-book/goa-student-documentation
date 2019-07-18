@@ -37,7 +37,7 @@
                <SmallCard
                :cardTitle="item.node.title"
                :cardText="item.node.excerpt"
-               class="lg:ml-16"
+               
                />
                 </router-link>
                
@@ -91,6 +91,7 @@ header{
 .grid {
   display: grid;
   grid-gap:10px;
+  align-items: center;
   grid-template-columns: repeat(auto-fit, minmax(320px,1fr));
 }
 </style>
