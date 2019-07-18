@@ -11,9 +11,7 @@ export default {
 }
 </script>
 <style scoped>
-img{
-    height:20px;
-}
+
 .Credits{
     padding-right:2000px; 
 }
