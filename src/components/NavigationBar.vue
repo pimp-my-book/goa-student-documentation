@@ -1,7 +1,7 @@
 <template>
     <nav class="border-top flex items-center justify-between flex-wrap bg-green-darker p-6">
         <div class="flex items-center flex-no-shrink text">
-            <h1 class="font-display text-white">
+            <h1 class="font-display text-white xl:text-4xl">
            <a 
             class="no-underline text-white"
             href="/">
