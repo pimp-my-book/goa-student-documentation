@@ -8,7 +8,7 @@
     class="text-white p-5 "
     />
     <FeatureText
-    class="mb-16"
+    class="mb-16 xl:text-3xl"
     text="We have made articles for you to follow if you get stuck or do not understand how to do something. "
     />
 </header>
