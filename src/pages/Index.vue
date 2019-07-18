@@ -37,7 +37,7 @@
                <SmallCard
                :cardTitle="item.node.title"
                :cardText="item.node.excerpt"
-               
+               class="lg:ml-8"
                />
                 </router-link>
                
