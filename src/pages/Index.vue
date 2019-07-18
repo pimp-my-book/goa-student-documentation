@@ -90,6 +90,7 @@ header{
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr)
+  grid-gap:10px;
+  grid-template-columns: repeat(auto-fit, minmax(320px,1fr));
 }
 </style>
