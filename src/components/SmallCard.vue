@@ -3,13 +3,13 @@
  
   <div>
    <DisplaySmall 
-   class="mt-5  text-center"
+   class="mt-5  text-center text-bold"
    :text="cardTitle"
    />
   </div>
   <div>
    <FeatureText
-   class="mt-5 p-3 "
+   class="mt-5 p-3 xl:text-2xl"
    :text="cardText"
    small
    />
