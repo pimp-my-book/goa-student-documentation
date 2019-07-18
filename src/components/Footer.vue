@@ -1,21 +1,23 @@
 <template>
-<footer class="bg-green-darker mt-32 w-full s:h-f-sm ">
+    
+
+
+<footer class="bg-green-darker mt-32 w-full ">
         
       <div class="container  ">
-          <div class="flex lg:flex-row s:flex-col  Links__Container absolute mt-32 pt-32">
-          
+          <div class="flex lg:flex-row s:flex-col  justify-center Links__Container absolute mt-32 pt-32">
+         
          <!-- Contact -->
-         <a
-         href="https://gogoa.co.za/contact"
-         target="_blank"
+         <router-link
+         to="/contact"
          class="no-underline"
          >
            <FeatureText
            text="Contact Us"
           
-           class="mr-4 mt-3 text-white "
+           class="mr-4 mt-3 text-white xl:text-2xl"
            />
-           </a>
+           </router-link>
            
 
            <!-- help -->
@@ -25,36 +27,37 @@
          >
             <FeatureText
            text="Help"
-           class="mr-4 mt-3 text-white "
+           class="mr-4 mt-3 text-white xl:text-2xl"
            />
             </a>
 
 
  <!-- privacy -->
-  <a
-         href="https://gogoa.co.za/privacy"
+  <router-link
+         to="/privacy"
          class="no-underline"
          >
            <FeatureText
            text="Privacy"
-           class="mr-4 mt-3 text-white"
+           class="mr-4 mt-3 text-white xl:text-2xl"
            />
-           </a>
+           </router-link>
 
             <!-- TERMS OF SERVICE -->
-             <a
-         href="https://gogoa.co.za/terms"
+             <router-link
+         to="/terms"
          class="no-underline"
          >
            <FeatureText
            text="Terms of Service"
-           class="mr-4 mt-3 text-white "
+           class="mr-4 mt-3 text-white xl:text-2xl"
            />
-           </a>
+           </router-link>
           </div>
         
       </div>
 
+ <!-- CREDITS AND COPYWRIGHT -->
       <div class="container  py-32 s:py-38">
           <div class="flex lg:flex-row s:flex-col pt-10 self-end Copyright__Container absolute mt-32 s:pt-20 lg:pt-32">
            <Credits/>
@@ -64,14 +67,12 @@
       </div>
     </footer>
 </template>
-
 <script>
-import FeatureText from './typography/FeatureText.vue'
-import Credits from './typography/Credits.vue'
-import Copyright from './typography/Copyright.vue'
-
+import FeatureText from "./typography/FeatureText"
+import Credits from "./typography/Credits"
+import Copyright from "./typography/Copyright"
 export default {
-    name: 'Footer',
+    name:'Footer',
     components: {
         FeatureText,
         Credits,
@@ -79,12 +80,11 @@ export default {
     }
 }
 </script>
-
 <style>
 footer {
-    clip-path: polygon(59% 21%, 100% 1%, 100% 100%, 0 100%, 0 49%);
+     clip-path: polygon(59% 21%, 100% 1%, 100% 100%, 0 100%, 0 49%); 
     height: 600px;
-    /*transform: matrix(0.98, -0.2, 0.21, 0.98,0,0);*/
+    
     
 }
 .Links__Container, .Copyright__Container{
