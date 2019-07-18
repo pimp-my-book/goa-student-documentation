@@ -18,5 +18,3 @@ export default {
     name:'Copyright'
 }
 </script>
-<style scoped>
-</style>
