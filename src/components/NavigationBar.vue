@@ -22,7 +22,7 @@
 
             </div>
             <div class="nav__drawer--right">
-                <p class="text-white font-body mr-4 hover:text-green">
+                <p class="text-white font-body mr-4 hover:text-green xl:text-2xl">
                     <a 
                     href="http://app.gogoa.co.za/login"
                     class="no-underline text-white">
