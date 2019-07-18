@@ -23,7 +23,7 @@
            />
            
            <div 
-           class="flex justify-center flex-wrap">
+           class="flex flex-wrap content-start justify-center flex-wrap">
 
             <div 
             v-for="item in $page.docs.edges"
