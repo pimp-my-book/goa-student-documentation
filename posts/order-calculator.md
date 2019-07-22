@@ -18,11 +18,15 @@ Proceed to the place order screen as if you were placing an order for a textbook
 
 Please go ahead and fill out the form in the following way:
 
-- For the course code, please enter the course you need the calculator for.
-- In the "Book Title" field just enter Calculator.
-- In the ISBN field, enter the name of the calculator eg: Casio/Sharp
-- For the "Book Author" field enter the calculator type: Scientific/Financial/FZA83 plus/Basic calculator
-- You can leave the "Book Edition" field blank.
-- In the "Note" field just enter "Calculator Order"  
+2.1 For the course code, please enter the course you need the calculator for.
 
-![order-calculator_step1](../uploads/order-calculator_step1.png)
+2.2 In the "Book Title" field just enter Calculator.
+
+2.3 In the ISBN field, enter the name of the calculator eg: Casio/Sharp
+
+2.4 For the "Book Author" field enter the calculator type: Scientific/Financial/FZA83 plus/Basic calculator
+
+2.5 You can leave the "Book Edition" field blank.
+
+2.6 In the "Note" field just enter "Calculator Order"  
+
