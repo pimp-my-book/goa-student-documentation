@@ -1,6 +1,6 @@
 ---
 title: Order A Calculator
-excerpt: Learn how place an order for a calculator
+excerpt: Learn how to place an order for a calculator
 ---
  
 # Order A Calculator
