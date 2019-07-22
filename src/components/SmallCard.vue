@@ -37,37 +37,41 @@ export default {
 
 <style>
 .Card:hover {
-    -webkit-animation: scale-up-bottom 0.4s ease-out both;
-	        animation: scale-up-bottom 0.4s ease-out both;
+    -webkit-animation: scale-up-bottom 1s;
+	        animation: scale-up-bottom 1s;
 }
 
 @-webkit-keyframes scale-up-bottom {
-  0% {
-    -webkit-transform: scale(0.5);
-            transform: scale(0.5);
-    -webkit-transform-origin: 50% 100%;
-            transform-origin: 50% 100%;
-  }
-  100% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-    -webkit-transform-origin: 50% 100%;
-            transform-origin: 50% 100%;
-  }
+ 0%, 20%, 60%, 100% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		-webkit-transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+
+	80% {
+		-webkit-transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
 }
 @keyframes scale-up-bottom {
-  0% {
-    -webkit-transform: scale(0.5);
-            transform: scale(0.5);
-    -webkit-transform-origin: 50% 100%;
-            transform-origin: 50% 100%;
-  }
-  100% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-    -webkit-transform-origin: 50% 100%;
-            transform-origin: 50% 100%;
-  }
+  0%, 20%, 60%, 100% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		-webkit-transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+
+	80% {
+		-webkit-transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
 }
 </style>
 
