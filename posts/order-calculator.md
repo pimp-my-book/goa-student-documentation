@@ -25,12 +25,6 @@ Please go ahead and fill out the form in the following way:
 
 2.1 For the "Course Code", please enter the course you need the calculator for.
 
-2.2 In the "Book Title" field just enter Calculator.
+2.2 In the "Book Title" field just enter Calculator. Eg: HP 10BII Plus Finamcial Calculator.
 
-2.3 In the ISBN field, enter the name of the calculator eg: Casio/Sharp
-
-2.4 For the "Book Author" field enter the calculator type: Scientific/Financial/FZA83 plus/Basic calculator
-
-2.5 You can leave the "Book Edition" field blank.
-
-2.6 In the "Note" field just enter "Calculator Order"  
+2.3 In the ISBN & Author field, enter "calculator" 
