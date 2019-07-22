@@ -30,3 +30,4 @@ Please go ahead and fill out the form in the following way:
 
 2.6 In the "Note" field just enter "Calculator Order"  
 
+![order-calculator_step1](../uploads/order-calculator_step1.png)
