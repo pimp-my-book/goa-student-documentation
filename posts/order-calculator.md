@@ -16,6 +16,9 @@ Proceed to the place order screen as if you were placing an order for a textbook
 
 ### Step 2
 
+
+![order-calculator_step1](../uploads/order-calculator_step1.png)
+
 Please go ahead and fill out the form in the following way:
 
 2.1 For the course code, please enter the course you need the calculator for.
@@ -29,5 +32,3 @@ Please go ahead and fill out the form in the following way:
 2.5 You can leave the "Book Edition" field blank.
 
 2.6 In the "Note" field just enter "Calculator Order"  
-
-![order-calculator_step1](../uploads/order-calculator_step1.png)
