@@ -24,3 +24,5 @@ Please go ahead and fill out the form in the following way:
 - For the "Book Author" field enter the calculator type: Scientific/Financial/FZA83 plus/Basic calculator
 - You can leave the "Book Edition" field blank.
 - In the "Note" field just enter "Calculator Order"  
+
+![order-calculator_step1](../uploads/order-calculator_step1.png)
