@@ -45,8 +45,12 @@ Run over your order one more time to make sure your order is correct, if not, si
 
 
 
+### Step 4
+
+If you added a new book and course, make sure you enter your lecturers details and your course outline to verify your order.
 
 
+<img src="https://goa-assets.s3.amazonaws.com/Images/tutorials/place_order_step_four.png" width="100%" height="50%"/>
 
 
 
