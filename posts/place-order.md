@@ -26,16 +26,22 @@ Select an Order Type – Select whether you want to order a textbook, calculator
 <img src="https://goa-assets.s3.amazonaws.com/Images/tutorials/place_order_step_two.png" width="100%" height="50%"/>
 
 
+### Note these steps if you need to add a book or course that is not in the drop down.
 
+Select a Course Code – GOA will select all the courses that are linked to the qualification and university which you selected when you registered. If you cannot find one of your courses you can select “add a course” and add the course.
+
+Select a Book – Once you have selected a course GOA will automatically put a list of books which are prescribed for that course at your university. You can select the book which you want to order. If you cannot find the book which you want to order select “add a new book”.
+
+Add A New Book – If you cant find the book that you want to order in our list, select “add a new book”. GOA will ask you to provide details of the book.
 
 
 
 
 ### Step 3
 
-To check the status of the order simply go to the Order History Page. This is where you can see the progress of all your orders.
+Run over your order one more time to make sure your order is correct, if not, simply click “Cancel” . If all is in order and ready to go, click “Place Order”
 
-![place_order_step3.png](../uploads/place-order/place_order_step3.png)
+<img src="https://goa-assets.s3.amazonaws.com/Images/tutorials/place_order_step_three.png" width="100%" height="50%"/>
 
 
 
