@@ -21,9 +21,9 @@ After logging in you will land on your dashboard. You Should be able to see a `P
 
 ### Step 2
 
-Now you can go head an fill out the form by telling us what the Course Code, Book Title, ISBN, Book Author and Book Edition is for your order. If there is anything else you need to tell us, simply just tell us in the Note textarea. Once you're done click the place order button.
+Select an Order Type – Select whether you want to order a textbook, calculator, laptop, drawing board, lab coat, bag etc. Note that this will be limited to items that were approved by your bursary. Select Book for ordering a book.
 
-![place_order_step2.png](../uploads/place-order/place_order_step2.png)
+<img src="https://goa-assets.s3.amazonaws.com/Images/tutorials/place_order_step_two.png" width="100%" height="50%"/>
 
 
 
