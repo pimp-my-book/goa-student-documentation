@@ -13,4 +13,4 @@ Successfully logging out your profile from your device
 
 On the top right hand corner where your name and surname appears, click once and select Logout.
 
-![logout_step1](../uploads/logout_step1.png)
+![blog_img](../uploads/logout_step1.png)
