@@ -12,14 +12,14 @@ Successfully changing your password if forgetten
 
 At the Login Page, click ‘I forgot my password”
 
-![Forgot_Password_step1.png](../uploads/forgot-password/Forgot_Password_step1.png)
+![blog_img](../uploads/forgot-password/Forgot_Password_step1.png)
 
 
 ### Step 2
 
 Enter your email to receive further instructions on generating a new password. Check your email inbox/spam(in case not received in inbox)
 
-![Forgot_Password_step2.png](../uploads/forgot-password/Forgot_Password_step2.png)
+![blog_img](../uploads/forgot-password/Forgot_Password_step2.png)
 
 
 ### Step 3
