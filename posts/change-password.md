@@ -14,13 +14,13 @@ Note : The functionality of changing your password is only available once you’
 
 On the top right hand corner where your name and surname appears, click once and select profile.
 
-![change_password_step1.png](../uploads/change-password/change_password_step1.png)
+![blog_img](../uploads/change-password/change_password_step1.png)
 
 ### Step 2
 
 Change your password accordingly with the instructions provided above on the length of your password.
 
-![change_password_step2.png](../uploads/change-password/change_password_step2.png)
+![blog_img](../uploads/change-password/change_password_step2.png)
 
 Please note : You will need your previous password to generate your own customised password
 
