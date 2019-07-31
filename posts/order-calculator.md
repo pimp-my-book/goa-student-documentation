@@ -19,7 +19,7 @@ Proceed to the place order screen as if you were placing an order for a textbook
 ### Step 2
 
 
-![order-calculator_step1](../uploads/order-calculator_step1.png)
+![blog_img](../uploads/order-calculator_step1.png)
 
 Please go ahead and fill out the form in the following way:
 
