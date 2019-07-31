@@ -15,8 +15,10 @@ Note you can only sign up if your bursary is a registered client of Pimp My Book
 
 To sign up you need to go to gogoa.co.za and press the sign up button as shown below: 
 
+<img src="../uploads/sign-up/sign_up_step1.png" width="100%" height="50%"/>
 
-![sign_up_step1.png](../uploads/sign-up/sign_up_step1.png)
+![sign_up_step1](../uploads/sign-up/sign_up_step1.png)
+
 
 ### Step 2
 
