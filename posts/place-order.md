@@ -14,7 +14,8 @@ Note : You can only successfully place an order as a registered student of our b
 
 After logging in you will land on your dashboard. You Should be able to see a `Place Order` button in the side nav and on the page. Click either one to be redirect to the `Place Order` screen.
 
-![place_order_step1.png] (../uploads/place-order/place_order_step1.png)
+<img src="https://goa-assets.s3.amazonaws.com/Images/tutorials/place_order_step_one.png" width="100%" height="50%"/>
+
 
 
 

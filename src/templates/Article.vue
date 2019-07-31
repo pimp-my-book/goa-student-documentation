@@ -1,6 +1,6 @@
 <template>
 <Layout>
-<div>
+<div class="flex flex-col">
         
         <span 
         class="font-body p-5 pl-5 text-center" 
